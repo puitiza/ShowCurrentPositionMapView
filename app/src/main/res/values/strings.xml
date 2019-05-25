@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ShowCurrentPositionMapView</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="s">Hello blank fragment</string>
 </resources>

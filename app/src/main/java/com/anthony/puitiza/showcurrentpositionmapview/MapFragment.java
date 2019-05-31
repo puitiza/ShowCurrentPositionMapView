@@ -111,8 +111,10 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         this.mGoogleMap = googleMap;
         this.mGoogleMap.getUiSettings().setMyLocationButtonEnabled(false);
         this.mGoogleMap.getUiSettings().setMapToolbarEnabled(false);
-
-        //mGoogleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        mGoogleMap.setTrafficEnabled(false);
+        mGoogleMap.setIndoorEnabled(false);
+        mGoogleMap.setBuildingsEnabled(false);
+        mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
 
         //Initialize Google Play Services
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
